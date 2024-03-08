@@ -1,0 +1,4 @@
+// Extend the default rule of eslint with those react rules that we just installed
+{
+    "extends":"react-app"
+}

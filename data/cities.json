@@ -1,0 +1,40 @@
+{
+  "cities": [
+    {
+      "cityName": "Berlin",
+      "country": "Germany",
+      "emoji": "🇩🇪",
+      "date": "2027-02-12T09:24:11.863Z",
+      "notes": "Amazing 😃",
+      "position": {
+        "lat": 52.53586782505711,
+        "lng": 13.376933665713324
+      },
+      "id": "98443197"
+    },
+    {
+      "cityName": "Kelowna",
+      "country": "Canada",
+      "emoji": "🇨🇦",
+      "date": "2027-10-31T15:59:59.138Z",
+      "notes": "Beautiful city!",
+      "position": {
+        "lat": 49.887951,
+        "lng": -119.49601
+      },
+      "id": "12345678"
+    },
+    {
+      "cityName": "Kyiv",
+      "country": "Ukraine",
+      "emoji": "🇺🇦",
+      "date": "2006-02-12T09:24:11.863Z",
+      "notes": "Historic and vibrant!",
+      "position": {
+        "lat": 50.4501,
+        "lng": 30.5234
+      },
+      "id": "87654321"
+    }
+  ]
+}
