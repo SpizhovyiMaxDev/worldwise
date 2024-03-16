@@ -1,4 +1,4 @@
-import { createContext, useContext, useEffect, useReducer } from "react";
+import { createContext, useContext, useEffect, useReducer, useCallback } from "react";
 
 const CitiesContext = createContext();
 
@@ -49,7 +49,7 @@ function CitiesProvider({ children }){
         })()
      }, []);
 
-  async function getCity(id){
+  const getCity = useCallback(async function getCity(id){
         try{
           if(currentCity.id === +id)return;
 
@@ -64,7 +64,7 @@ function CitiesProvider({ children }){
         } catch(err){
           dispatch({type:"rejected", payload: err.message})
         } 
-    }
+    }, [currentCity.id])
 
 
       async function postNewCity(newCity){
